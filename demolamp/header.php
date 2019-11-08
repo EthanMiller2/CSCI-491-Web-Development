@@ -22,15 +22,16 @@ echo <<<_HEADER_OPEN
         <header>
             <div id='logo'>$clubstr</div>
             <div class='username'>$userstr</div>
+               <nav><ul>
+                            <li><a href='index.php'>Home</a></li>
+                            <li><a href='members.php'>About</a></li>
+                            <li><a href='messages.php'>Photo Share</a></li>
+                           	<li><a href='featured.php'>Featured Artist</a></li>
+                        </ul></nav>
 _HEADER_OPEN;
 
-            <nav><ul>
-                <li><a href='members.php?view=$user'>Home</a></li>
-                <li><a href='members.php'>About</a></li>
-                <li><a href='messages.php'>Photo Share</a></li>
-               	<li><a href='featured.php'>Featured Artist</a></li>
-            </ul></nav>
- }
+
+
 
 echo <<<_HEADER_CLOSE
 
