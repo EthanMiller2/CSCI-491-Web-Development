@@ -17,44 +17,22 @@ echo <<<_INIT
         <title>$clubstr</title>
         </head>
 _INIT;
-<<<<<<< HEAD
-=======
 
-
-
-
-
->>>>>>> d6362407cad827738e7f9fc1a2502e3b14d42ff7
 echo <<<_HEADER_OPEN
         <div id="wrapper">
         <header>
             <div id='logo'>$clubstr</div>
-<<<<<<< HEAD
-            <div class='username'>$userstr</div>
+            <img id="logoImg" src="img\bg.jpg">
                <nav><ul>
                             <li><a href='index.php'>Home</a></li>
-                            <li><a href='members.php'>About</a></li>
+                            <li><a href='#'>About</a></li>
+                            <li><a href='calender.php'>Calendar</a></li>
                             <li><a href='messages.php'>Photo Share</a></li>
                            	<li><a href='featured.php'>Featured Artist</a></li>
                         </ul></nav>
 _HEADER_OPEN;
 
 
-
-=======
-            <img id="logoImg" src="bg.jpg">
-
-                     <nav><ul>
-                            <li><a href='index.php'>Home</a></li>
-                            <li><a href='calender.php'>Calender</a></li>
-                            <li><a href='featured.php'>Featured Artist</a></li>
-                            <li><a href=#>Photo Share</a></li>
-                        </ul></nav>
-
-
-_HEADER_OPEN;
-
->>>>>>> d6362407cad827738e7f9fc1a2502e3b14d42ff7
 
 echo <<<_HEADER_CLOSE
 
