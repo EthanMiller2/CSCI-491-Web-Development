@@ -17,17 +17,16 @@ font-family: 'Playfair Display', serif;
 html {
     font-size: 16px;
     font-family: 'Arsenal', sans-serif;
-    color: #222;
-    background-color: white;
+    color: white;
+    /*background-color: white;*/
 }
 
 #wrapper {
+    background-color: black;
+
     flex-direction: column;
     margin: auto;
-    max-width: 800px;
-    border-color: #222;
-    border-style: solid;
-    border-width: 0 5px;
+    /*max-width: 800px;*/
     padding: 0 5px;
 }
 
@@ -36,7 +35,7 @@ header {
     grid-column: 300px 500px;
     grid-row: 100px 60px;
     background-color: white;
-    background-color: purple;
+    /*background-image: url("background.jpg");*/
     height: 160px;
     position: relative;
 }
@@ -50,12 +49,17 @@ header {
     margin: 0 40px;
     font-variant: small-caps;
     letter-spacing: .05em;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
-    color: white;
+    color: black;
     line-height: 1.0em;
+    /*background-image: background.jpg;*/
 }
-
+#logoImg {
+    margin-left: 50%;
+    height: 150px;
+    width: 300px;
+}
 nav {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
@@ -63,11 +67,12 @@ nav {
 }
 
 nav ul {
-    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
     list-style-type: none;
     overflow: hidden;
     color: #ddd;
-    background-color: blue;
+    background-color: #444;
     margin: 0;
     padding: 0;
 }
@@ -92,19 +97,38 @@ nav li a:hover {
 
 #content {
     min-height: 200px;
-    padding: 0 50px;
+    padding: 50px 50px;
     padding-bottom: 80px;
-}
-
-.username {
-    font-family: 'Lora', serif;
-    font-size: 1.2em;
-    font-style: italic;
-    text-align: right;
-    padding-right: 5px;
 
 }
+#content p{
+    color: #ddd;
+    padding-left: 10px;
+}
+.row{
 
+}
+.venueDiv{
+    display: inline-block;
+    width: 40%;
+    border: 2px solid red;
+    padding: 20px;
+    overflow: hidden;
+    margin-right: 4%;
+    margin-bottom: 2%;
+
+}
+.venueDiv p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+.venue{
+    margin-right: 15px;
+    float: left;
+    height: 50px;
+    width: 50px;
+}
 .userpic {
     width: 100px;
     height: 100px;
@@ -129,8 +153,9 @@ footer {
     font-family: 'Muli', sans-serif;
     padding: 20px;
     color: #ddd;
-    background-color: green;
+    background-color: black;
     font-size: .9em;
+    border-top: 2px solid white;
 }
 
 footer a {
