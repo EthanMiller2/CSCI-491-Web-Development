@@ -27,7 +27,7 @@ echo <<<_HEADER_OPEN
                             <li><a href='index.php'>Home</a></li>
                             <li><a href='#'>About</a></li>
                             <li><a href='calender.php'>Calendar</a></li>
-                            <li><a href='messages.php'>Photo Share</a></li>
+                            <li><a href='upload.html'>Photo Share</a></li>
                            	<li><a href='featured.php'>Featured Artist</a></li>
                         </ul></nav>
 _HEADER_OPEN;
