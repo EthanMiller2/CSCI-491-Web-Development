@@ -30,7 +30,7 @@ html {
     padding: 0 5px;
 }
 
-header {
+header.important {
     display: grid;
     grid-column: 300px 500px;
     grid-row: 100px 60px;
@@ -40,7 +40,7 @@ header {
     position: relative;
 }
 
-#logo {
+#logo{
     grid-column: 1 / 2;
     grid-row: 1 /2;
     font-family: 'Bowlby One SC', sans-serif;
@@ -175,3 +175,4 @@ input[type=submit]{
 input[type=submit]:hover{
     background-color: dimgray;
 }
+
