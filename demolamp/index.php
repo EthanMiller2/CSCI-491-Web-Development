@@ -42,7 +42,7 @@ echo <<<_BODY
 
     </div>
     <div id="section3">
-        <h3>Previously Featured </h3>
+        <h3>Previously Featured</h3>
 
     </div>
 </html>
