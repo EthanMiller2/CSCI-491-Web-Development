@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91a5e5d-44a5-4db8-ad82-8b7cfdc7d122" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/show.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -66,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573184135191</updated>
       <workItem from="1573184136392" duration="12757000" />
-      <workItem from="1574115940717" duration="9242000" />
+      <workItem from="1574115940717" duration="10050000" />
     </task>
     <servers />
   </component>
