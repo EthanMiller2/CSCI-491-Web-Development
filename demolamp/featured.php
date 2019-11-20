@@ -185,13 +185,7 @@ require_once 'header.php';
 
       <br>
       <div style="text-align:center">
-      <a href='https://www.hawthorneroots.com' target='_blank'>Visit Their Website</a>
-      <p> Enter a band you would like to see featured and some information about the band
-        such as a genre, links to their page, and links to their events/photos. </p>
-      <form name="bandRequest" method="post" action="featured.php" onsubmit="validateForm()">
-        <textarea name="message" placeholder="Write Something..."></textarea>
-        <input type="submit" value="Submit">
-      </form>
+       <a href='https://www.hawthorneroots.com' target='_blank'>Visit Their Website</a>
       </div>
     </body>
 </html>
