@@ -2,6 +2,8 @@
 $dbhost  = 'localhost';
 
 global $db;
+
+
 $db = 'db63';
 $dbuser  = 'user63';
 $dbpass  = '63clop';
@@ -13,3 +15,4 @@ if ($connection->connect_error)
 
 
 ?>
+
