@@ -1,7 +1,7 @@
 <?php
 require_once 'header.php';
 
-$galleryPath = "./img/uploads";
+$galleryPath = "uploads";
 
 
 
@@ -9,7 +9,7 @@ if (isset($_FILES['image']['name'])) {
     $fileName = basename($_FILES["image"]["name"]);
     $fileName = filter_var($fileName, FILTER_SANITIZE_STRING);
     $filteredName = preg_replace('/\s+/', '', $fileName);
-    $saveto = "gallerypics/$filteredName";
+    $saveto = "uploads/$filteredName";
     move_uploaded_file($_FILES['image']['tmp_name'], $saveto);
     $typeok = TRUE;
     switch($_FILES['image']['type']) {
@@ -58,9 +58,10 @@ echo <<<_END
         <input type='submit' value='Save Gallery'>
     </form>
 _END;
-
+console.log($galleryPath);
 $gallery = preg_grep('/^([^.])/', scandir($galleryPath));
 foreach ($gallery as $image) {
+    console.log($gallery);
     echo '<img src='.$galleryPath.'/' . $image . ' class="galleryImages">';
 }
 
@@ -68,4 +69,4 @@ require_once "footer.php";
 ?>
 
 
-<script src="carousel.js" type="text/javascript"></script>
+<script src="./carousel.js" type="text/javascript"></script>

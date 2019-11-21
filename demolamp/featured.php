@@ -3,9 +3,7 @@ require_once 'header.php';
 ?>
 
 <?php
-if($_POST["message"]) {
-    mail("baseballfreak07@gmail.com", "Featured Band Request", $_POST["message"], "From: Bozonemusic@gmail.com");
-}
+
 ?>
 <!DOCTYPE html>
 <html>
