@@ -25,6 +25,7 @@ echo <<<_HEADER_OPEN
             <img id="logoImg" src="img\bg.jpg">
                <nav><ul>
                             <li><a href='index.php'>Home</a></li>
+
                             <li><a href='#'>About</a></li>
                             <li><a href='calender.php'>Calendar</a></li>
                             <li><a href='upload.html'>Photo Share</a></li>
