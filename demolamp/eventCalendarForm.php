@@ -1,15 +1,15 @@
 <?php
-  $name = $_POST['name'];
+  $name = sanitizeString($_POST['name']);
 
-  $bandName = $_POST['bandName'];
+  $bandName = sanitizeString($_POST['bandName']);
 
-  $date = $_POST['date'];
+  $date = sanitizeString($_POST['date']);
 
-  $startTime = $_POST['startTime'];
+  $startTime = sanitizeString($_POST['startTime']);
 
-  $endTime = $_POST['endTime'];
+  $endTime = sanitizeString($_POST['endTime']);
 
-  $link = $_POST['ticketLink'];
+  $link = sanitizeString($_POST['ticketLink']);
 
   $email_subject = "New Event Form submission";
 
@@ -21,6 +21,11 @@
                             "Date:  $date\n".
                             "Time:  $startTime - $endTime\n".
                             "Ticket Link: $link\n"
+    if (isset($_POST['name'])) {
+
+    $result = queryMysql("INSERT INTO members VALUES('$name', '$bandName', );
+    }
+
 ?>
 
 <?php

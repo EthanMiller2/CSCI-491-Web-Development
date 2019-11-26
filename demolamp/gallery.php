@@ -58,12 +58,13 @@ echo <<<_END
         <input type='submit' value='Save Gallery'>
     </form>
 _END;
-console.log($galleryPath);
+
 $gallery = preg_grep('/^([^.])/', scandir($galleryPath));
 foreach ($gallery as $image) {
-    console.log($gallery);
+
     echo '<img src='.$galleryPath.'/' . $image . ' class="galleryImages">';
 }
+
 
 require_once "footer.php";
 ?>

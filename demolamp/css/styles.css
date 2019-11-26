@@ -51,7 +51,7 @@ header.important {
     letter-spacing: .05em;
     font-size: 2em;
     text-align: center;
-    color: black;
+    color: white;
     line-height: 1.0em;
     /*background-image: background.jpg;*/
 }
@@ -175,4 +175,16 @@ input[type=submit]{
 input[type=submit]:hover{
     background-color: dimgray;
 }
+#galleryDisplay{
+    align-content: center;
+}
+#galleryHeader h1{
+    text-align: center;
+}
+.galleryImages{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 600px;
 
+}

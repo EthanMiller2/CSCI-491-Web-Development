@@ -9,7 +9,7 @@ $dbuser  = 'user63';
 $dbpass  = '63clop';
 
 
-$connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+$connection = new mysqli('localhost', $dbuser, $dbpass, $dbname);
 if ($connection->connect_error)
     die("Fatal Error 1");
 
