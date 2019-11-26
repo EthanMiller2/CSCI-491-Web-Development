@@ -145,7 +145,7 @@ echo <<<_BODY
              </body>
     </div>
     <div id="section2">
-        <h3>Local Venues & Promoters</h3>
+        <h3 style="margin-left:5%">Local Venues & Promoters</h3>
 
             <div class="row">
             <div class="venueDiv">
@@ -167,19 +167,19 @@ echo <<<_BODY
                 <p>World-class production, state-of-the-art venues and exeptional service define the Logjam experience.</p>
             </div>
             </div>
-
+            <div style="margin-left: 4.2%">
             <p><strong>Links to other notable Montana venues</strong></p>
             <ul>
-                <li>KettleHouse Ampitheater- Bonner</li>
-                <li>Top Hat- Missoula </li>
-                <li>Pub Station- Billings </li>
-                <li>Filling Station- Bozeman</li>
+                <li><a href="https://classic.kettlehouse.com/kettlehouse-amphitheater/" class="button">KettleHouse Ampitheater- Bonner</a></li>
+                <li><a href="https://logjampresents.com/top-hat-restaurant-bar/">Top Hat- Missoula</a></li>
+                <li><a href="https://thepubstation.com/" class="button">Pub Station- Billings</a></li>
+                <li><a href="https://www.bozemanevents.net//FillingStation" class="button">Filling Station- Bozeman</a></li>
             </ul>
-
+            </div>
     </div>
-    <div id="section3">
+    <div id="section3"; style="margin-left:5%">
         <h3>Previously Featured</h3>
-
+        <p> Coming Soon </p>
     </div>
 </html>
 _BODY;
