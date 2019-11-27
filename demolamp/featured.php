@@ -2,23 +2,10 @@
 require_once 'header.php';
 ?>
 
-<?php
-if($_POST["message"]) {
-    mail("baseballfreak07@gmail.com", "Featured Band Request", $_POST["message"], "From: Bozonemusic@gmail.com");
-}
-?>
 <!DOCTYPE html>
 <html>
     <head>
-      <script>
-      function validateForm() {
-        var x = document.forms["bandRequest"]["message"].value;
-        if (x == "") {
-          alert("Section is blank");
-          return false;
-        }
-      }
-      </script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <style>
         .button{
@@ -39,6 +26,7 @@ if($_POST["message"]) {
         }
     </style>
     <body>
+
       <h1>Featured Artist: The Hawthorne Roots</h1>
       <h3>Genre: Rock</h3>
 
@@ -183,10 +171,32 @@ if($_POST["message"]) {
                 setTimeout(showSlides, 8000); // Change image every 8 seconds
             }
       </script>
+
+
+      </body>
+      </html>
+
+
+
+
+
+      <br>
+      <div style="text-align:center">
+       <a href='https://www.hawthorneroots.com' target='_blank'>Visit Their Website</a>
+      </div>
+
     </body>
 </html>
 </body>
 </html>
+
+
+
+<?php
+require_once 'featuredForm.php';
+?>
+
+
 
 <?php
 require_once 'footer.php';

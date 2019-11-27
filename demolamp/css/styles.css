@@ -30,7 +30,7 @@ html {
     padding: 0 5px;
 }
 
-header {
+header.important {
     display: grid;
     grid-column: 300px 500px;
     grid-row: 100px 60px;
@@ -40,7 +40,7 @@ header {
     position: relative;
 }
 
-#logo {
+#logo{
     grid-column: 1 / 2;
     grid-row: 1 /2;
     font-family: 'Bowlby One SC', sans-serif;
@@ -51,7 +51,7 @@ header {
     letter-spacing: .05em;
     font-size: 2em;
     text-align: center;
-    color: black;
+    color: white;
     line-height: 1.0em;
     /*background-image: background.jpg;*/
 }
@@ -162,3 +162,31 @@ footer {
 footer a {
     color: white;
 }
+
+input[type=submit]{
+    background-color: white;
+    border: 3px;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: dimgray;
+}
+#galleryDisplay{
+    align-content: center;
+}
+#galleryHeader h1{
+    text-align: center;
+}
+.galleryImages{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 600px;
+
+}
+

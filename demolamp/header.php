@@ -18,27 +18,21 @@ echo <<<_INIT
         </head>
 _INIT;
 
-
-
-
-
 echo <<<_HEADER_OPEN
-
-    <body>
         <div id="wrapper">
         <header>
             <div id='logo'>$clubstr</div>
-            <img id="logoImg" src="bg.jpg">
-
-                     <nav><ul>
+            <img id="logoImg" src="img\bg.jpg">
+               <nav><ul>
                             <li><a href='index.php'>Home</a></li>
-                            <li><a href='calender.php'>Calender</a></li>
-                            <li><a href='featured.php'>Featured Artist</a></li>
-                            <li><a href=#>Photo Share</a></li>
+
+                            <li><a href='#'>About</a></li>
+                            <li><a href='calender.php'>Calendar</a></li>
+                            <li><a href='gallery.php'>Photo Share</a></li>
+                           	<li><a href='featured.php'>Featured Artist</a></li>
                         </ul></nav>
-
-
 _HEADER_OPEN;
+
 
 
 echo <<<_HEADER_CLOSE
